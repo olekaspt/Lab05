@@ -41,12 +41,14 @@ bool ChessBoard::Solve(ChessBoard chessBoard, int col) {
 
 	for (int i = 0; i < 8; ++i) {
 
-		if (CheckSafeQueens(chessBoard, i, col)) {
+		if (CheckSafeQueens(chessBoard, i, col)) 
+		{
 			m_board[i][col] = 1;
 
-
 			if (Solve(chessBoard, col + 1) == true)
+			{
 				return true;
+			}
 
 			m_board[i][col] = 0;
 
