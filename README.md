@@ -28,7 +28,7 @@ You can choose your implementation or the starter code if you have troubles with
 
 Recall you will need to not complile the StackQueue.cpp (so just take out the Shared object from CMakeLists.txt).
 
-## Task 4 Participation Matrix
+## Task 5 Participation Matrix
 
 Participation rubric of teammates.  List out for your all team members how much they participated.  This will go into your Lab report.
 ```
@@ -52,8 +52,9 @@ Member3 (opinion)	20	     40	     40
 
 
 ## Lab Grading:
-1.	25% - Task 1 has been correctly implemented and meets all requirements (Unit Test Passes).
-1.	25% - Task 2 has been correctly implemented and meets all requirements (Unit Test Passes).
-1.	25% - Task 3 has been correctly implemented and meets all requirements.
-1.	25% - Code style, Participation Rubric, and Information requested in PDF
+1.	20% - Task 1 has been correctly implemented and meets all requirements 
+1.	20% - Task 2 has been correctly implemented and meets all requirements 
+1.	20% - Task 3 has been correctly implemented and meets all requirements.
+1.	20% - Task 4 has been correctly implemented and meets all requirements.
+1.	20% - Task 5, Code style, Participation Rubric, and Information requested in PDF
 If program fails to compile, 0% will be given for that Task.
