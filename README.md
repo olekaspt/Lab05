@@ -6,11 +6,12 @@ The objective of this Lab is to explore solutions using recursion/stacks, Except
 
 Implement two functions to calculate a factorial of integer number, one using recursion and the other using a stack.
 
+
 ## Task 2 Using the recursive implementation of Queensolver, switch it to use a stack.
 
-Using the recursive implementation for Queensolver.  Switch it to use a stack.
+Using the recursive starter implementation for Queensolver.  Switch it to use a stack.
 
-You will need to provide screen shots of just one valid solution of a queen placed on a 8X8 board.  You MUST use a stack.  This will go into your Lab report.
+You will need to provide screen shots of just one valid solution of a queen placed on a 8X8 board.  You MUST use a stack (you can use any STL container and use it like a stack).  This will go into your Lab report.
 
 You can stop after getting a single valid solution.
 
