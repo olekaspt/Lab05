@@ -29,6 +29,8 @@ You can choose your implementation or the starter code if you have troubles with
 
 Recall you will need to not complile the StackQueue.cpp (so just take out the Shared object from CMakeLists.txt).
 
+Your goal is for the stack and queue code to compile as well the testcase code. This will mean you will need to modify them.  It is not a requirement of them to pass, since I'm allowing to you use the starter code (which will not pass) or your completed lab.
+
 ## Task 5 Participation Matrix
 
 Participation rubric of teammates.  List out for your all team members how much they participated.  This will go into your Lab report.
