@@ -98,8 +98,7 @@ extern std::string CallSimpleExceptionMethod(int i)
 	MyFakeClass* resourceThatNeedsToBeCleanedup = nullptr;
 
 	resourceThatNeedsToBeCleanedup = new MyFakeClass();
-
-	SimpleExceptionMethod(1);
+	SimpleExceptionMethod(i);
 
 	delete resourceThatNeedsToBeCleanedup;
 
