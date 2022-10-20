@@ -35,6 +35,7 @@ int FactorialByStack::CalculateFactorial(int num) {
 bool ChessBoard::Solve(ChessBoard chessBoard, int col) {
 
 	if (col >= 8) {
+		cout << chessBoard.ToString() <<endl;
 		return true;
 	}
 
@@ -43,14 +44,14 @@ bool ChessBoard::Solve(ChessBoard chessBoard, int col) {
 
 		if (CheckSafeQueens(chessBoard, i, col)) 
 		{
-			m_board[i][col] = 1;
+			chessBoard.m_board[i][col] = 1;
 
 			if (Solve(chessBoard, col + 1) == true)
 			{
 				return true;
 			}
 
-			m_board[i][col] = 0;
+			chessBoard.m_board[i][col] = 0;
 
 		}
 	}
@@ -58,12 +59,32 @@ bool ChessBoard::Solve(ChessBoard chessBoard, int col) {
 }
 
 
+
+
 bool ChessBoard::CheckSafeQueens(ChessBoard chessBoard, int row, int col) 
 {
+	// TODO this is fake implementation that just shows off some logic to 
+	// get a board made.  First change this implementation to work, and the work on the 
+	// stack portion
 
-    return false;
+	bool retVal = false;
+	static int count = 1;
+	static int modCount = 3;
+	int tmp = count % modCount;
+	count++;
+	
+	if(tmp != 0)
+	{
+		retVal = true;
+	}
+	else
+	{
+		
+		retVal = false;
 
-    // TODO
+	}
+    return retVal;
+
 }
 
 

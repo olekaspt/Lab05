@@ -96,12 +96,12 @@ public:
 
 	std::string ToString();
 	
-	bool Solve(ChessBoard chessboard, int col);
+	static bool Solve(ChessBoard chessboard, int col);
 
 	
 
 private:
-    bool CheckSafeQueens(ChessBoard chessBoard, int i, int col);
+    static bool CheckSafeQueens(ChessBoard chessBoard, int i, int col);
 	int m_board[8][8]; //zero is free, while 1 is a placed queen
 	// TODO: add your methods here.
 };

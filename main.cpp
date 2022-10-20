@@ -9,12 +9,7 @@ int main()
 	ChessBoard chessBoard;
 
 	bool status = chessBoard.Solve(chessBoard,0);
-	if(status)
-	{
-		string output = chessBoard.ToString();
-		cout << output << endl;
-	}
-	else
+	if(!status)
 	{
 		cout << "No solution found"  << endl;
 	}
