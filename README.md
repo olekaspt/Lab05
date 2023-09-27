@@ -23,7 +23,7 @@ You can stop after getting a single valid solution.
   * Free the memory of the MyFakeClass appropriately.
   * Add in MyException3
 
-## Task 4 Modify the code from Lab02 for the Stack and Queue to use Templates
+## Task 4 Modify the code from for the Stack and Queue Lab to use Templates
 
 You can choose your implementation or the starter code if you have troubles with Lab02.
 
