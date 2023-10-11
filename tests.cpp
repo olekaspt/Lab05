@@ -77,7 +77,7 @@
 			ASSERT_EQ(std::string("I did not get an Exception"), status);
 
 		}
-
+ 
  
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
