@@ -1,6 +1,8 @@
 # Lab05
 The objective of this Lab is to explore solutions using recursion/stacks, Exceptions, and Templates
 
+Must follow standards cited here:
+https://github.com/olekaspt/LabStandards/blob/main/README.md
 
 ## Task 1 Explore relationship between recursion/Stacks
 
